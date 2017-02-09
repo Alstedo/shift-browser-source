@@ -2,14 +2,20 @@
 
 #blueName {
   text-align: center;
-  position: absolute; left: 27%; top: 2%; z-index: 1;
-  width: 13.5%;
+  position: fixed;
+  left: 19%;
+  top: 2%;
+  z-index: 1;
+  width: 20.5%;
 }
 
 #orangeName {
   text-align: center;
-  position: absolute; left: 59.5%; top: 2%; z-index: 1;
-  width: 13.5%;
+  position: fixed;
+  left: 60%;
+  top: 2%;
+  z-index: 1;
+  width: 20.5%;
 }
 
 #blueScore {
@@ -22,7 +28,7 @@
 
 #series {
   text-align: center;
-  position: absolute;
+  position: fixed;
   left: 45%;
   top: 11%;
   z-index: 1;
