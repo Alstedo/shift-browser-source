@@ -1,0 +1,38 @@
+body {
+  background-color: transparent;
+}
+
+#header {
+  height: 15%;
+}
+
+.names {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin-top: 3%;
+  font-size: 3.5vmin;
+  text-align: center;
+}
+
+.match {
+  font-size: 1.65vmin;
+}
+
+#footer {
+  padding: 5px;
+}
+
+#footer div {
+  width: 10% !important;
+}
+
+#logo {
+  /*animation: spin 30s ease infinite;*/
+  opacity: 0.35;
+}
+
+@keyframes spin {
+  0% { transform: rotateY(0deg); }
+  17% { transform: rotateY(360deg); }
+  100% { transform: rotateY(360deg); }
+}

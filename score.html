@@ -1,0 +1,74 @@
+<!-- https://getuikit.com/docs/utility#inline-svg -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>Scoreboard</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/score.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  </head>
+  <body style="background-color: none;">
+
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col">
+
+          <div id="images" class="fixed-top">
+
+            <div id="scoreboard">
+              <img src="/assets/img/bo3/scoreboard.png" class="img-fluid" />
+            </div>
+
+            <div id="blueScore"></div>
+            <div id="orangeScore"></div>
+
+          </div>
+
+          <div id="header" class="fixed-top text-white">
+
+            <div class="row h-100">
+              <div class="col-6 offset-3">
+
+                <div class="row names">
+                  <div class="col clearfix">
+                    <span id="blueName" class="float-left w-25">G2 Esports</span>
+                    <span id="orangeName" class="float-right w-25">Iris</span>
+                  </div>
+                </div>
+
+                <div class="row match">
+                  <div class="col">
+                    <span id="round">R1</span> - <span id="bestOf">Bo7</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div id="footer" class="fixed-bottom clearfix">
+            <div class="float-right">
+                <img id="logo" src="/assets/img/icon_blue.png" class="img-fluid" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <script src="/socket.io/socket.io.js"></script>
+
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+      <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    </footer>
+
+  </body>
+</html>

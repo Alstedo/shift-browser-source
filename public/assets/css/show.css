@@ -1,0 +1,22 @@
+body {
+  /*font-family: 'Oswald', sans-serif;*/
+}
+
+table {
+  /*background-color: #2a6bfb;*/
+  color: white;
+
+  /*font-size: 3.5vmin;*/
+}
+
+th {
+  color: black;
+}
+
+.done {
+  background-color: #616161;
+}
+
+.selected {
+  background-color: #6998fc;
+}

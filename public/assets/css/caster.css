@@ -1,0 +1,19 @@
+@import url("/assets/css/main.css");
+
+.leftCaster {
+  position: absolute;
+  top: 63.25%;
+  left: 9%;
+  width: 17%;
+  font-size: 4.55vmin;
+  text-align: center;
+}
+
+.rightCaster {
+  position: absolute;
+  top: 63.25%;
+  right: 9%;
+  width: 17%;
+  font-size: 4.55vmin;
+  text-align: center;
+}
