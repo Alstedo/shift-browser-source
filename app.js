@@ -9,6 +9,10 @@ app.get('/after', function(req, res){
   res.sendFile(__dirname + '/after.html');
 });
 
+app.get('/bl', function(req, res){
+  res.sendFile(__dirname + '/bl.html');
+});
+
 app.get('/caster', function(req, res){
   res.sendFile(__dirname + '/caster.html');
 });
