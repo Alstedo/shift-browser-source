@@ -1,0 +1,25 @@
+@import url("/assets/css/main.css");
+
+body {
+  background-color: #494949;
+  color: white;
+}
+
+.partner {
+  width: 50%;
+  height: auto;
+  position: fixed;
+  left: 40%;
+}
+
+.schedule {
+  position: fixed;
+  left: 5%;
+  top: 35%;
+}
+
+.social {
+  position: fixed;
+  left: 5%;
+  top: 55%;
+}
